@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const authRoutes = require('./src/routes/auth');
 const paymentRoutes = require('./src/routes/payments');
+const taskRoutes = require('./src/routes/tasks');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -12,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/payments', paymentRoutes);
+app.use('/api/tasks', taskRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'TaskFlow API' });
