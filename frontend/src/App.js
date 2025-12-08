@@ -1,6 +1,7 @@
 import React from 'react';
 import Login from './components/Login';
 import Payment from './components/Payment';
+import Export from './components/Export';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <h1>TaskFlow</h1>
         <Login />
         <Payment />
+        <Export />
       </header>
     </div>
   );
