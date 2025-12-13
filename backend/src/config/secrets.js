@@ -11,5 +11,3 @@ module.exports.DB_PASSWORD = 'super_secret_password_123';
 module.exports.GITHUB_TOKEN = 'ghp_1234567890abcdefghijklmnopqrstuvwxyz';
 
 module.exports.SENDGRID_API_KEY = 'SG.1234567890abcdefghijklmnopqrstuvwxyz';
-
-module.exports.STRIPE_API_KEY = 'sk_live_51H3jK2L3mN0pQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMn';
